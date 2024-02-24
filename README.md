@@ -15,3 +15,5 @@ Using Document-Oriented Database MongoDB
 |password|String|
 |phone|String|
 |type|enum|
+|class|String|
+|group|number|
