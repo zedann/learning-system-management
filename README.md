@@ -3,7 +3,7 @@ Backend for Learning Systems
 
 # ERD
 
-Using Document-Oriented Database MongoDB
+Using Relational Database Postgresql
 
 **Users**:
 
