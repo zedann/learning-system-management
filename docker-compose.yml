@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+      pOSTGRES_USER: postgres
+      pOSTGRES_DB: lsm
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./docker-data/db:/var/lib/postgresql/data
